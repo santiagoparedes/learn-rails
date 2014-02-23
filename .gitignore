@@ -14,3 +14,9 @@
 # Ignore all logfiles and tempfiles.
 /log/*.log
 /tmp
+<<<<<<< HEAD
+=======
+
+# Ignore application configuration
+/config/application.yml
+>>>>>>> 3f8e1b2601d45032ae60276a8ac7baa412ff7e44

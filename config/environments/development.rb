@@ -26,4 +26,16 @@ LearnRails::Application.configure do
   # This option may cause significant delays in view rendering with a large
   # number of complex assets.
   config.assets.debug = true
+<<<<<<< HEAD
+=======
+  config.action_mailer.smtp_settings = { 
+  address: "smtp.gmail.com",
+  port: 587,
+  domain: ENV["DOMAIN_NAME"], 
+  authentication: "plain", 
+  enable_starttls_auto: true, 
+  user_name: ENV["GMAIL_USERNAME"], 
+  password: ENV["GMAIL_PASSWORD"] 
+}
+>>>>>>> 3f8e1b2601d45032ae60276a8ac7baa412ff7e44
 end
